@@ -17,11 +17,14 @@ export default function Home() {
         <div className={styles.description}></div>
 
         <div className={styles.center}>
-          <div>
-            <img
-              src="/maintenance-background-design_1294-45.jpg"
-              alt="maintasince"
-            />
+          <div style={{ textAlign: "center" }}>
+            <h2 className="under">We're Comming Soon ☺️</h2>
+            <p>
+              For any quiries please contact{" "}
+              <a className="contect" href="mailto:sabbirnahid5817@gmail.com">
+                sabbirnahid5817@gmail.com
+              </a>
+            </p>
           </div>
         </div>
 
